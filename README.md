@@ -1,14 +1,16 @@
 # Stardance OS
 
-A simple desktop-style web project built with React and Vite. I'm building it as a way to learn React by creating something interactive instead of just following tutorials.
+Stardance OS is a desktop-style web project I'm building with React. The idea is to create a simple desktop experience in the browser while learning React and making things work step by step.
 
 ## Features
 
-- Desktop wallpaper
+- Custom desktop wallpaper
 - Bottom bar
-- Draggable app windows
 - App icons with background images
-- Interactive windows using `react-rnd`
+- Draggable app windows
+- A browser-style app window
+- Click the browser's name (not its icon) to open it
+- Drag the window around the desktop using the cursor
 
 ## Built With
 
@@ -24,32 +26,17 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/saimr1/SaimOs
-```
-
-Go into the project folder:
-
-```bash
 cd stardance-os
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-Open the local URL shown in your terminal.
+Open the local URL shown in your terminal to run the project.
 
 ## Current Status
 
-I'm still working on the project and adding features as I learn. More improvements will come as development continues.
+The project is still in development. I'm adding features as I learn and improving the desktop experience along the way.
 
 ## Goal
 
-The goal is to build a small web-based desktop environment and improve my React skills along the way.
+To build an interactive web-based desktop environment and learn React through a real project rather than just tutorials.
